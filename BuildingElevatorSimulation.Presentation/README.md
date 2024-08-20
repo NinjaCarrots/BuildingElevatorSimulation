@@ -19,7 +19,7 @@ Newtonsoft.Json library for JSON serialization
 
 Installation
 Clone the Repository:
-git clone https://github.com/Sinethemba-Mndela/BuildingElevatorSimulation.git
+git clone https://github.com/yourusername/BuildingElevatorSimulation.git
 cd BuildingElevatorSimulation
 
 Restore Dependencies:
@@ -53,16 +53,17 @@ BuildingElevatorSimulation/
 ├── BuildingElevatorSimulation.Domain/
 │   ├── Implementation/
 │   ├── Interfaces/
+├── BuildingElevatorSimulation.Domain/
 │   └── Models/
 ├── BuildingElevatorSimulation.Infra/
 │   ├── Constants/
 │   ├── ElevatorStateStorageFile.cs
 ├── BuildingElevatorSimulation.UnitTests/
 │   └── IntegrationTest.cs
-├── Program.cs
-└── README.md├── BuildingElevatorSimulation.UnitTests/
-│   └── IntegrationTest.cs
-├── Program.cs
+├── BuildingElevatorSimulation.Common/
+│   └── DirectionEnum.cs
+├── BuildingElevatorSimulation.Presentation/
+│   └── Program.cs
 └── README.md
 
 Key Classes
