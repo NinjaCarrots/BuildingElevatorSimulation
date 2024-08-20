@@ -1,0 +1,25 @@
+{
+  "NumberOfFloors": 10,
+  "HighSpeedElevators": [
+    {
+      "Id": 1,
+      "CurrentFloor": 0,
+      "CurrentDirection": "Stationary",
+      "IsMoving": false,
+      "PassengerCount": 0,
+      "Capacity": 5,
+      "Type": "HighSpeed"
+    }
+  ],
+  "FreightElevators": [
+    {
+      "Id": 2,
+      "CurrentFloor": 0,
+      "CurrentDirection": "Stationary",
+      "IsMoving": false,
+      "PassengerCount": 0,
+      "Capacity": 5,
+      "Type": "Freight"
+    }
+  ]
+}

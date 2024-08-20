@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingElevatorSimulation.Presentation", "BuildingElevatorSimulation.Presentation", "{EA609383-0E33-4E46-8649-C8080F70FD8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingElevatorSimulation.App", "BuildingElevatorSimulation.App", "{DF10E820-C082-4DA8-BCBC-DE43005FFC3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingElevatorSimulation.Domain", "BuildingElevatorSimulation.Domain", "{6737673F-045E-4A42-AFE4-452DC4B9B90E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingElevatorSimulation.App", "BuildingElevatorSimulation.App\BuildingElevatorSimulation.App.csproj", "{E1226B84-9AE6-43AD-A5B1-FDC3F7E942EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingElevatorSimulation.Domain", "BuildingElevatorSimulation.Domain\BuildingElevatorSimulation.Domain.csproj", "{17E32B21-656A-4682-B2E0-95C59AA0548A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingElevatorSimulation.Presentation", "BuildingElevatorSimulation.Presentation\BuildingElevatorSimulation.Presentation.csproj", "{30366D12-A4E1-443F-ACF4-25C0819CF1DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingElevatorSimulation.Infra", "BuildingElevatorSimulation.Infra", "{D988B9FA-FC0F-4F88-B1C4-A6BBFE767F4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingElevatorSimulation.Infra", "BuildingElevatorSimulation.Infra\BuildingElevatorSimulation.Infra.csproj", "{C8107914-783F-4B05-8788-EFD538BD4BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingElevatorSimulation.Common", "BuildingElevatorSimulation.Common\BuildingElevatorSimulation.Common.csproj", "{A32A1E1B-BE8D-49C8-9EEE-0C320023CEC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingElevatorSimulation.UnitTests", "BuildingElevatorSimulation.UnitTests", "{510A7490-4B42-43FB-BD1F-6A871C24AB26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingElevatorSimulation.UnitTests", "BuildingElevatorSimulation.UnitTests\BuildingElevatorSimulation.UnitTests.csproj", "{19666A1C-A039-497E-9E97-74C7CE856A4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1226B84-9AE6-43AD-A5B1-FDC3F7E942EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1226B84-9AE6-43AD-A5B1-FDC3F7E942EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1226B84-9AE6-43AD-A5B1-FDC3F7E942EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1226B84-9AE6-43AD-A5B1-FDC3F7E942EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E32B21-656A-4682-B2E0-95C59AA0548A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E32B21-656A-4682-B2E0-95C59AA0548A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E32B21-656A-4682-B2E0-95C59AA0548A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E32B21-656A-4682-B2E0-95C59AA0548A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30366D12-A4E1-443F-ACF4-25C0819CF1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30366D12-A4E1-443F-ACF4-25C0819CF1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30366D12-A4E1-443F-ACF4-25C0819CF1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30366D12-A4E1-443F-ACF4-25C0819CF1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8107914-783F-4B05-8788-EFD538BD4BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8107914-783F-4B05-8788-EFD538BD4BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8107914-783F-4B05-8788-EFD538BD4BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8107914-783F-4B05-8788-EFD538BD4BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32A1E1B-BE8D-49C8-9EEE-0C320023CEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32A1E1B-BE8D-49C8-9EEE-0C320023CEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32A1E1B-BE8D-49C8-9EEE-0C320023CEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32A1E1B-BE8D-49C8-9EEE-0C320023CEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19666A1C-A039-497E-9E97-74C7CE856A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19666A1C-A039-497E-9E97-74C7CE856A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19666A1C-A039-497E-9E97-74C7CE856A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19666A1C-A039-497E-9E97-74C7CE856A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1226B84-9AE6-43AD-A5B1-FDC3F7E942EC} = {DF10E820-C082-4DA8-BCBC-DE43005FFC3C}
+		{17E32B21-656A-4682-B2E0-95C59AA0548A} = {6737673F-045E-4A42-AFE4-452DC4B9B90E}
+		{30366D12-A4E1-443F-ACF4-25C0819CF1DD} = {EA609383-0E33-4E46-8649-C8080F70FD8D}
+		{C8107914-783F-4B05-8788-EFD538BD4BD4} = {D988B9FA-FC0F-4F88-B1C4-A6BBFE767F4B}
+		{19666A1C-A039-497E-9E97-74C7CE856A4C} = {510A7490-4B42-43FB-BD1F-6A871C24AB26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EDBEFE6-10C7-4477-9444-A44BE86C5B21}
+	EndGlobalSection
+EndGlobal
