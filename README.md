@@ -19,7 +19,7 @@ Newtonsoft.Json library for JSON serialization
 
 Installation
 Clone the Repository:
-git clone https://github.com/yourusername/BuildingElevatorSimulation.git
+git clone https://github.com/NinjaCarrots/BuildingElevatorSimulation.git
 cd BuildingElevatorSimulation
 
 Restore Dependencies:
